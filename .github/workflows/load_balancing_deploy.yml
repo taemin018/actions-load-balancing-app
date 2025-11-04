@@ -1,4 +1,4 @@
-name: load_balancing_deploy
+name: ec2_aws_deploy
 
 on:
   push:
