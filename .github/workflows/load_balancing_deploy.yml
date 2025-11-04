@@ -23,7 +23,7 @@ jobs:
       run: echo "HOST=${{ secrets[matrix].name }}" >> $GITGUB_ENV
 
     - name: Debug EC2_HOST
-      run: echo "EC2_HOST is ${{ secrets.EC2_HOST }}"
+      run: echo "EC_HOST is ${{ secrets.EC2_HOST }}"
 
     - name: Set up SSH
       run: |
